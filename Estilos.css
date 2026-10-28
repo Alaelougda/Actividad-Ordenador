@@ -1,0 +1,102 @@
+/* 0. CABECERA NARANJA - Mi ordenador por piezas */
+#inicio {
+    background-color: #FF5722; 
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 15px 15px 0px 15px;
+}
+
+/* 0.1 MENU VERDE - Placa base, Procesador... */
+nav {
+    background-color: #7CFF6B; 
+    padding: 10px 20px;
+    margin: 0px 15px 15px 15px;
+    border: 2px solid white;
+}
+
+nav ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+nav li {
+    margin: 3px 0;
+}
+
+nav a {
+    color: blue;
+    text-decoration: underline;
+}
+
+
+body {
+    background-color: #333;
+    font-family: Arial, sans-serif;
+}
+
+header, nav, section {
+    border: 8px solid white; 
+}
+section {
+
+    background-color: #c5f1fc; /* aquamarine / verde agua como en la foto */
+    padding: 10px;
+    margin: 15px;
+    border: 2px solid orange;
+}
+
+/* 1. PLACA BASE - */
+.titulo-placa {
+    background-color: #c5f1fc;
+    border: 3px solid orange;
+    text-align: center;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* 2. Párrafo descriptivo y Precio final - Borde ROJO */
+.parrafo-rojo, .precio-rojo {
+    border: 3px solid red;
+    padding: 8px;
+    background-color: #c5f1fc;
+    margin-bottom: 10px;
+}
+
+.precio-rojo a {
+    color: blue;
+    text-decoration: underline;
+}
+
+/* 3. Imagen - Borde MORADO */
+.imagen-morado {
+    border: 3px solid purple;
+    width: 100px;
+    display: block;
+    padding: 5px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+/* 4. Caracteristicas y Precio - Borde AZUL */
+.titulo-azul {
+    border: 2px solid blue;
+    background-color: #E0FFFF;
+    padding: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* 5. Lista amarilla - */
+.lista-amarilla {
+    background-color: yellow;
+    border: 2px solid black;
+    padding: 15px;
+    padding-left: 25px;
+    list-style-type: disc;
+}
